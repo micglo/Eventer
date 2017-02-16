@@ -1,0 +1,29 @@
+Eventer.WebApi
+Projekt w technologii Asp.Net WebApi2. Do połączęnia z bazą danych wykorzystano EntityFramework. Ninject jako IoC. Logowanie za pomocą NLoga.
+Do utworzenia dokumentacji użyto bibliotekę Swashbuckle. Zarządzanie użytkownikami i rolami Asp.Net Identity. Autentykacja przy użyciu OAth
+tokena, oraz refresh tokena, który pełni rolę podtrzymywania autoryzacji w projekcie Eventer.Web. 
+
+Eventer.Web
+Projekt stworzony przy wykorzystaniu AngularJS. Przykładowa aplikacja, która umożliwia zarządzanie clientami uzyskującymi dostęp do api.
+Ponadto wykorzystuje API, aby porać i wyświetlić wydarzenia.
+
+Eventer.WindowsService
+Usługa Windows, która ma na celu pobranie wydarzeń z dwóch niezależnych serwisów oraz przy użyciu API Eventera zapisanie ich do bazy. 
+W celu kolejkowania i powtarzania akcji wykorzystano biblioteke QUARTZ, która umożliwia sprawne zarządzanie zdarzeniami CRON'a. 
+
+Link do api: (Baza wydarzeń jest nieaktualna, gdyż serwis z Wrocławia nie odpowiada na moje maile, a klucz API stracil ważność.)
+https://eventerapi.azurewebsites.net/swagger (tylko v1)
+dane do autentykacji, aby uzyskac bearer token
+userName : eventerapitest@gmail.com
+password : P@$$w0rd1
+grant_type : password
+client_id : 3e0e5e5e-cf0f-4e05-8475-1088f4235775
+client_secret : 3phqbJ+ngnjjat5pbKuL8IwkfBaOI6Z/TDA=
+
+po uzyskaniu access_tokena wystarczy wpisac w bearer twojAccess_Token i śmiało można przetestować api
+
+
+
+
+Link do apliakcji angulara:
+https://eventerspa.azurewebsites.net
