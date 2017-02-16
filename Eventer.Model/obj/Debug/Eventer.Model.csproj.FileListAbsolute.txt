@@ -1,0 +1,37 @@
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Model\bin\Debug\Eventer.Model.dll
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Model\bin\Debug\Eventer.Model.pdb
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Model\obj\Debug\Eventer.Model.dll
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Model\obj\Debug\Eventer.Model.pdb
+C:\Users\Michal\documents\visual studio 2015\Projects\Eventer\Eventer.Model\bin\Debug\Eventer.Model.dll.config
+C:\Users\Michal\documents\visual studio 2015\Projects\Eventer\Eventer.Model\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Michal\documents\visual studio 2015\Projects\Eventer\Eventer.Model\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Michal\documents\visual studio 2015\Projects\Eventer\Eventer.Model\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Michal\documents\visual studio 2015\Projects\Eventer\Eventer.Model\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Model\bin\Debug\Eventer.Model.dll.config
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Model\bin\Debug\Eventer.Model.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Model\bin\Debug\Eventer.Model.pdb
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Model\bin\Debug\Eventer.Domain.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Model\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Model\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Model\bin\Debug\Newtonsoft.Json.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Model\bin\Debug\Eventer.Domain.pdb
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Model\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Model\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Model\bin\Debug\Newtonsoft.Json.xml
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Model\obj\Debug\Eventer.Model.csprojResolveAssemblyReference.cache
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Model\obj\Debug\Eventer.Model.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Model\obj\Debug\Eventer.Model.pdb
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Model\bin\Debug\Eventer.Model.dll.config
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Model\bin\Debug\Eventer.Model.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Model\bin\Debug\Eventer.Model.pdb
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Model\bin\Debug\Eventer.Domain.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Model\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Model\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Model\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Model\bin\Debug\Eventer.Domain.pdb
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Model\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Model\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Model\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Model\obj\Debug\Eventer.Model.csprojResolveAssemblyReference.cache
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Model\obj\Debug\Eventer.Model.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Model\obj\Debug\Eventer.Model.pdb

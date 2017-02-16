@@ -1,0 +1,31 @@
+<nav class="navbar navbar-default navbar-fixed-top" ng-cloak>
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#!/">Eventer</a>
+            <a class="navbar-brand" href="https://eventerapi.azurewebsites.net/swagger">Api documentation</a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li ng-show="ctrl.isAllowed(['Users'])"><a href="">Welcome {{ctrl.userName()}}</a></li>
+                <li><a href="#!/events">events</a></li>
+                <li ng-show="ctrl.isAllowed(['Users'])"><a href="#!/myAccount">My account</a></li>
+                <li class="dropdown" ng-show="ctrl.isAllowed(['Administrators'])">
+                    <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Admin<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li ng-show="ctrl.isAllowed(['Administrators'])"><a href="#!/admin/clients">Manage clients</a></li>
+                        <li ng-show="ctrl.isAllowed(['Administrators'])"><a href="#!/admin/tokens">Manage tokens</a></li>
+                    </ul>
+                </li>
+                <li ng-show="ctrl.isAllowed(['Users'])"><a href="" ng-click="ctrl.logOut()">Logout</a></li>
+                <li ng-show="!ctrl.isAllowed(['Users'])"><a href="" ng-click="ctrl.openLoginModal()">Login</a></li>
+                <li ng-show="!ctrl.isAllowed(['Users'])"><a href="" ng-click="ctrl.openSignUpModal()">Sign Up</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>

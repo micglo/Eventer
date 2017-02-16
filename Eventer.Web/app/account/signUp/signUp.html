@@ -1,0 +1,91 @@
+<form name="SignUpForm" novalidate ng-submit="SignUpForm.$valid && ctrl.signUp(SignUpForm, ctrl.user)">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h4 class="modal-title" id="signUpModalLabel">Sign up</h4>
+        </div>
+        <div class="modal-body">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group has-feedback">
+                        <label class="control-label" for="email">Email address</label>
+                        <div class="input-group" ng-class="{'has-success': ctrl.emailValid(SignUpForm),
+                                'has-error': ctrl.emailInvalid(SignUpForm)}">
+                            <span class="input-group-addon">@</span>
+                            <input name="Email" type="email" class="form-control" id="email"
+                                   placeholder="eventer@eventer.com" required ng-model="ctrl.user.email"
+                                   ng-model-options="{updateOn: 'blur'}">
+                        </div>
+                        <span ng-show="ctrl.emailValid(SignUpForm)" class="glyphicon glyphicon-ok form-control-feedback
+                        text-success"></span>
+                        <span ng-show="ctrl.emailInvalid(SignUpForm)"
+                              class="glyphicon glyphicon-remove form-control-feedback text-danger"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row paddingBottom20" ng-show="ctrl.emailInvalid(SignUpForm)">
+                <div class="col-md-12">
+                    <span class="text-danger" ng-show="SignUpForm.Email.$error.required">
+                        Email address is required.
+                    </span>
+                    <span class="text-danger" ng-show="SignUpForm.Email.$error.email">
+                        This is not a valid email.
+                    </span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group" ng-class="{'has-success': ctrl.passwordValid(SignUpForm),
+                            'has-error': ctrl.passwordInvalid(SignUpForm)}">
+                        <label for="password">Password</label>
+                        <input name="Password" type="password" class="form-control" id="password"
+                               placeholder="Enter your password" required ng-model="ctrl.user.password"
+                               ng-model-options="{updateOn: 'blur'}">
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-group" ng-class="{'has-success': ctrl.confirmPasswordValid(SignUpForm),
+                            'has-error': ctrl.confirmPasswordInvalid(SignUpForm)}">
+                        <label for="confirmPassword">Confirm password</label>
+                        <input name="ConfirmPassword" type="password" class="form-control" id="confirmPassword"
+                               placeholder="Confirm your password" required ng-model="ctrl.user.confirmPassword"
+                               ng-model-options="{updateOn: 'blur'}" password-check="ctrl.user.password">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row paddingBottom20" ng-show="ctrl.passwordInvalid(SignUpForm) || ctrl.confirmPasswordInvalid(SignUpForm)">
+                <div class="col-md-6" ng-show="ctrl.passwordShowError(SignUpForm)">
+                    <span class="text-danger" ng-show="SignUpForm.Password.$error.required">
+                        Password is required.
+                    </span>
+                </div>
+                <div class="col-md-6" ng-show="ctrl.confirmPasswordShowError(SignUpForm)">
+                    <span class="text-danger" ng-show="SignUpForm.ConfirmPassword.$error.required">
+                        Password has to be confirmed.
+                    </span>
+                    <span class="text-danger" ng-show="SignUpForm.ConfirmPassword.$error.passwordCheck">
+                        Password and confirmed password do not match.
+                    </span>
+                </div>
+            </div>
+
+            <div class="row" style="padding-top: 15px;" ng-show="ctrl.signUpResponse()">
+                <div class="col-md-12" style="font-size: 2rem">
+                    <span class="text-success" ng-show="ctrl.signUpResponseSuccess">{{ctrl.signUpResponseSuccess}}</span>
+                    <span class="text-danger" ng-show="ctrl.signUpResponseError">{{ctrl.signUpResponseError}}</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal-footer">
+            <input type="button" class="btn btn-warning pull-left" ng-click="ctrl.reset(SignUpForm)" value="Reset" />
+            <button type="button" class="btn btn-danger" ng-click="ctrl.close()">Close</button>
+            <input type="submit" class="btn btn-success pull-right" value="Sign up" />
+        </div>
+    </div>
+</form>
+
+

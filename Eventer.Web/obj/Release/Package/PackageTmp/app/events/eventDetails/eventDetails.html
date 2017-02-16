@@ -1,0 +1,37 @@
+﻿<div class="row" style="padding-top: 20px;">
+    <div class="col-md-12">
+        <h2 style="margin-top: 0;">{{ctrl.event.eventName}}</h2>
+    </div>
+    <div class="col-md-1">
+        <span style="font-size: 16px"><b>Kiedy?</b></span>
+    </div>
+    <div class="col-md-11">
+        <span style="font-size: 16px"><b>{{ctrl.event.eventDate | date: 'dd-MM-yyyy hh:mm'}}</b></span>
+    </div>
+    <div class="col-md-1">
+        <span style="font-size: 16px"><b>Gdzie?</b></span>
+    </div>
+    <div class="col-md-11">
+        <span style="font-size: 16px"><b>{{ctrl.event.eventLocalization}}</b></span>
+    </div>
+    <div class="col-md-9" style="padding-top: 10px;">
+        <div ng-bind-html="ctrl.eventDesc"></div>
+    </div>
+    <div class="col-md-3">
+        <div ng-show="ctrl.event.eventImage">
+            <img ng-src="{{ctrl.event.eventImage}}" class="img-thumbnail" style="margin-bottom: 10px;" />
+        </div>
+        <div ng-repeat="cat in ctrl.event.categories" class="text-right">
+            <div>{{cat.categoryName}}</div>
+        </div>
+    </div>
+    <div class="col-md-12">
+        <a href="{{ctrl.event.eventUrl}}" target="blank">Dowiedz się wiecej!</a>
+    </div>
+</div>
+
+<div class="row" style="padding-top: 20px;">
+    <div class="col-md-12 text-left">
+        <a href="#!/events" class="btn btn-info">Back</a>
+    </div>
+</div>

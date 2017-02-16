@@ -1,0 +1,21 @@
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Domain\bin\Debug\Eventer.Domain.dll
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Domain\bin\Debug\Eventer.Domain.pdb
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Domain\obj\Debug\Eventer.Domain.dll
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Domain\obj\Debug\Eventer.Domain.pdb
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Domain\bin\Debug\Eventer.Domain.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Domain\bin\Debug\Eventer.Domain.pdb
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Domain\obj\Debug\Eventer.Domain.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Domain\obj\Debug\Eventer.Domain.pdb
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Domain\bin\Debug\Eventer.Domain.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Domain\bin\Debug\Eventer.Domain.pdb
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Domain\obj\Debug\Eventer.Domain.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Domain\obj\Debug\Eventer.Domain.pdb
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Domain\obj\Debug\Eventer.Domain.csprojResolveAssemblyReference.cache
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Domain\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Domain\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Domain\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Domain\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml

@@ -1,0 +1,93 @@
+﻿<form name="AdminAddClientForm" novalidate ng-submit="AdminAddClientForm.$valid && ctrl.addClient(AdminAddClientForm, ctrl.client)">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h4 class="modal-title" id="adminAddClientModallLabel">Add client</h4>
+        </div>
+
+        <div class="modal-body">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group" ng-class="{'has-success': ctrl.usernameValid(AdminAddClientForm),
+                            'has-error': ctrl.usernameInvalid(AdminAddClientForm)}">
+                        <label for="username">Username</label>
+                        <input name="Username" type="text" class="form-control" id="username" ng-model="ctrl.client.username"
+                               required ng-model-options="{updateOn: 'blur'}">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group" ng-class="{'has-success': ctrl.refreshTokenValid(AdminAddClientForm),
+                            'has-error': ctrl.refreshTokenInvalid(AdminAddClientForm)}">
+                        <label for="refreshTokenLifeTime">Refresh token life time</label>
+                        <input name="RefreshTokenLifeTime" type="text" class="form-control" id="refreshTokenLifeTime" ng-model="ctrl.client.refreshTokenLifeTime"
+                               required ng-model-options="{updateOn: 'blur'}">
+                    </div>
+                </div>
+            </div>
+            <div class="row paddingBottom20" ng-show="ctrl.usernameInvalid(AdminAddClientForm) || ctrl.refreshTokenInvalid(AdminAddClientForm)">
+                <div class="col-md-6" ng-show="ctrl.usernameShowError(AdminAddClientForm)">
+                    <span class="text-danger" ng-show="AdminAddClientForm.Username.$error.required">
+                        Username is required.
+                    </span>
+                </div>
+                <div class="col-md-6" ng-show="ctrl.refreshTokenShowError(AdminAddClientForm)">
+                    <span class="text-danger" ng-show="AdminAddClientForm.RefreshTokenLifeTime.$error.required">
+                        Refresh token life time is required.
+                    </span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group has-feedback">
+                        <label class="control-label" for="jsClientUrl">Is JavaScript client?</label>
+                        <div class="input-group" ng-class="{'has-success': ctrl.jsClientValid(AdminAddClientForm),
+                                'has-error': ctrl.jsClientInvalid(AdminAddClientForm)}">
+                            <span class="input-group-addon control-label">
+                                <input name="IsJsClient" type="checkbox" id="iSJsClient" ng-model="ctrl.client.isJsClient"
+                                       ng-change="ctrl.clearJsClientUrl(AdminAddClientForm)">
+                            </span>
+                            <input name="JsClientUrl" type="url" class="form-control" id="jsClientUrl"
+                                   ng-model="ctrl.client.jsClientUrl" ng-disabled="!ctrl.client.isJsClient"
+                                   ng-required="ctrl.client.isJsClient" ng-model-options="{updateOn: 'blur'}">
+                        </div>
+                        <span ng-show="ctrl.jsClientShowValidIcon(AdminAddClientForm)"
+                              class="glyphicon glyphicon-ok form-control-feedback text-success">
+
+                        </span>
+                        <span ng-show="ctrl.jsClientShowInvalidIcon(AdminAddClientForm)"
+                              class="glyphicon glyphicon-remove form-control-feedback text-danger"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row paddingBottom20" ng-show="ctrl.jsClientInvalid(AdminAddClientForm)">
+                <div class="col-md-12">
+                    <span class="text-danger" ng-show="AdminAddClientForm.JsClientUrl.$error.required">
+                        Provide your JavaScript client url.
+                    </span>
+                    <span class="text-danger" ng-show="AdminAddClientForm.JsClientUrl.$error.url">
+                        This is not a valid url.
+                    </span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 checkbox">
+                    <label>
+                        <input type="checkbox" ng-model="ctrl.client.active"> Is Active?
+                    </label>
+                </div>
+            </div>
+
+            <div class="row" style="padding-top: 15px;" ng-show="ctrl.addClientResponse()">
+                <div class="col-md-12" style="font-size: 2rem">
+                    <span class="text-success" ng-show="ctrl.addClientSuccess">{{ctrl.addClientSuccess}}</span>
+                    <span class="text-danger" ng-show="ctrl.addClientError">{{ctrl.addClientError}}</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal-footer">
+            <input type="button" class="btn btn-warning pull-left" ng-click="ctrl.reset(AdminAddClientForm)" value="Reset" />
+            <button type="button" class="btn btn-danger" ng-click="ctrl.close()">Close</button>
+            <input type="submit" class="btn btn-success pull-right" value="Add" />
+        </div>
+    </div>
+</form>

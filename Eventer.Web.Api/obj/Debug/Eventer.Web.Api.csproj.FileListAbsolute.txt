@@ -1,0 +1,319 @@
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\roslyn\csc.exe
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\roslyn\csc.exe.config
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\roslyn\csc.rsp
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\roslyn\csi.exe
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\roslyn\csi.rsp
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\roslyn\System.AppContext.dll
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\roslyn\System.Collections.Immutable.dll
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\roslyn\System.Diagnostics.StackTrace.dll
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\roslyn\System.IO.FileSystem.dll
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\roslyn\System.IO.FileSystem.Primitives.dll
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\roslyn\System.Reflection.Metadata.dll
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\roslyn\vbc.exe
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\roslyn\vbc.exe.config
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\roslyn\vbc.rsp
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\roslyn\VBCSCompiler.exe
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\roslyn\VBCSCompiler.exe.config
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\Eventer.Web.Api.dll.config
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\Eventer.Web.Api.dll
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\Eventer.Web.Api.pdb
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\Antlr3.Runtime.dll
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\EntityFramework.dll
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\EntityFramework.SqlServer.dll
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\Microsoft.AspNet.Identity.Core.dll
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\Microsoft.Owin.dll
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\Microsoft.Owin.Security.Cookies.dll
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\Microsoft.Owin.Security.dll
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\Microsoft.Owin.Security.Facebook.dll
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\Microsoft.Owin.Security.Google.dll
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\Microsoft.Owin.Security.OAuth.dll
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\Microsoft.Owin.Security.Twitter.dll
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\Microsoft.Web.Infrastructure.dll
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\Newtonsoft.Json.dll
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\Owin.dll
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\System.Net.Http.Formatting.dll
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\System.Web.Helpers.dll
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\System.Web.Http.dll
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\System.Web.Http.Owin.dll
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\System.Web.Http.WebHost.dll
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\System.Web.Mvc.dll
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\System.Web.Optimization.dll
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\System.Web.Razor.dll
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\System.Web.WebPages.Deployment.dll
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\System.Web.WebPages.dll
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\System.Web.WebPages.Razor.dll
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\WebGrease.dll
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\Antlr3.Runtime.pdb
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\Newtonsoft.Json.xml
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\System.Net.Http.Formatting.xml
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\System.Web.Helpers.xml
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\System.Web.Http.xml
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\System.Web.Http.WebHost.xml
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\System.Web.Mvc.xml
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\System.Web.Optimization.xml
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\System.Web.Razor.xml
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\System.Web.WebPages.xml
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\System.Web.WebPages.Deployment.xml
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\System.Web.WebPages.Razor.xml
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\EntityFramework.xml
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\EntityFramework.SqlServer.xml
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\Microsoft.AspNet.Identity.Core.xml
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\Microsoft.Owin.xml
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\Microsoft.Owin.Security.xml
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\Microsoft.Owin.Security.Facebook.xml
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\Microsoft.Owin.Security.Cookies.xml
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\Microsoft.Owin.Security.OAuth.xml
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\Microsoft.Owin.Security.Google.xml
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\Microsoft.Owin.Security.Twitter.xml
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\bin\System.Web.Http.Owin.xml
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\obj\Debug\Eventer.Web.Api.csprojResolveAssemblyReference.cache
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\obj\Debug\Eventer.Web.Api.dll
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api\obj\Debug\Eventer.Web.Api.pdb
+C:\Users\Michal\documents\visual studio 2015\Projects\Eventer\Eventer.Web.Api\bin\Eventer.Dal.dll
+C:\Users\Michal\documents\visual studio 2015\Projects\Eventer\Eventer.Web.Api\bin\Eventer.Model.dll
+C:\Users\Michal\documents\visual studio 2015\Projects\Eventer\Eventer.Web.Api\bin\Eventer.Dal.pdb
+C:\Users\Michal\documents\visual studio 2015\Projects\Eventer\Eventer.Web.Api\bin\Eventer.Model.pdb
+C:\Users\Michal\documents\visual studio 2015\Projects\Eventer\Eventer.Web.Api\bin\Eventer.Web.Api.Utility.dll
+C:\Users\Michal\documents\visual studio 2015\Projects\Eventer\Eventer.Web.Api\bin\Eventer.Web.Api.Utility.pdb
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\roslyn\csc.exe
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\roslyn\csc.exe.config
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\roslyn\csc.rsp
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\roslyn\csi.exe
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\roslyn\csi.rsp
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\roslyn\System.AppContext.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\roslyn\vbc.exe
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\roslyn\vbc.exe.config
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\roslyn\vbc.rsp
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\roslyn\VBCSCompiler.exe
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\Eventer.Web.Api.dll.config
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\Eventer.Web.Api.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\Eventer.Web.Api.pdb
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\Antlr3.Runtime.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\EntityFramework.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\EntityFramework.SqlServer.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\Eventer.Dal.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\Eventer.Domain.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\Eventer.Mapper.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\Eventer.Model.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\Eventer.Repository.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\Eventer.Service.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\Eventer.Utility.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\Eventer.Web.Api.Utility.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\Microsoft.Owin.Cors.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\Microsoft.Owin.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\Microsoft.Owin.Security.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\Newtonsoft.Json.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\Ninject.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\Ninject.Web.Common.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\Ninject.Web.WebApi.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\NLog.Extended.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\NLog.Web.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\Owin.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\SendGrid.CSharp.HTTP.Client.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\SendGrid.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\System.Net.Http.Formatting.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\System.Web.Cors.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\System.Web.Http.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\System.Web.Http.Owin.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\System.Web.Http.WebHost.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\WebActivatorEx.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\Eventer.Dal.pdb
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\Eventer.Domain.pdb
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\Eventer.Mapper.pdb
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\Eventer.Model.pdb
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\Eventer.Repository.pdb
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\Eventer.Service.pdb
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\Eventer.Utility.pdb
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\Eventer.Web.Api.Utility.pdb
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\Antlr3.Runtime.pdb
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\Microsoft.Owin.Cors.xml
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\Newtonsoft.Json.xml
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\Ninject.xml
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\Ninject.Web.Common.xml
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\Ninject.Web.WebApi.xml
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\NLog.xml
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\NLog.Extended.xml
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\NLog.Web.xml
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\System.Net.Http.Formatting.xml
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\System.Web.Http.xml
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\System.Web.Http.WebHost.xml
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\EntityFramework.xml
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\EntityFramework.SqlServer.xml
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\Microsoft.Owin.xml
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\Microsoft.Owin.Security.xml
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\System.Web.Http.Owin.xml
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\obj\Debug\Eventer.Web.Api.csprojResolveAssemblyReference.cache
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\obj\Debug\Eventer.Web.Api.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\obj\Debug\Eventer.Web.Api.pdb
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\Documentation.xml
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\roslyn\csc.exe
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\roslyn\csc.exe.config
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\roslyn\csc.rsp
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\roslyn\csi.exe
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\roslyn\csi.rsp
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\roslyn\System.AppContext.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\roslyn\vbc.exe
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\roslyn\vbc.exe.config
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\roslyn\vbc.rsp
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\roslyn\VBCSCompiler.exe
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\Eventer.Web.Api.dll.config
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\Eventer.Web.Api.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\Eventer.Web.Api.pdb
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\Antlr3.Runtime.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\EntityFramework.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\EntityFramework.SqlServer.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\Eventer.Dal.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\Eventer.Domain.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\Eventer.Mapper.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\Eventer.Model.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\Eventer.Repository.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\Eventer.Service.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\Eventer.Utility.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\Eventer.Web.Api.Utility.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\Microsoft.Owin.Cors.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\Microsoft.Owin.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\Microsoft.Owin.Security.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\Newtonsoft.Json.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\Ninject.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\Ninject.Web.Common.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\Ninject.Web.WebApi.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\NLog.Web.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\Owin.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\SendGrid.CSharp.HTTP.Client.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\SendGrid.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\System.Net.Http.Formatting.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\System.Web.Http.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\System.Web.Http.Owin.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\System.Web.Http.WebHost.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\WebActivatorEx.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\Eventer.Dal.pdb
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\Eventer.Domain.pdb
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\Eventer.Mapper.pdb
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\Eventer.Model.pdb
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\Eventer.Repository.pdb
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\Eventer.Service.pdb
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\Eventer.Utility.pdb
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\Eventer.Web.Api.Utility.pdb
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\Antlr3.Runtime.pdb
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\Microsoft.Owin.Cors.xml
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\Newtonsoft.Json.xml
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\Ninject.xml
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\Ninject.Web.Common.xml
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\Ninject.Web.WebApi.xml
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\NLog.xml
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\NLog.Web.xml
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\System.Net.Http.Formatting.xml
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\System.Web.Http.xml
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\System.Web.Http.WebHost.xml
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\EntityFramework.xml
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\EntityFramework.SqlServer.xml
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\Microsoft.Owin.xml
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\Microsoft.Owin.Security.xml
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\System.Web.Http.Owin.xml
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\obj\Debug\Eventer.Web.Api.csprojResolveAssemblyReference.cache
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\obj\Debug\Eventer.Web.Api.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\obj\Debug\Eventer.Web.Api.pdb
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\Ninject.Extensions.ContextPreservation.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\Ninject.Extensions.NamedScope.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\Ninject.Web.Common.OwinHost.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\Ninject.Web.WebApi.OwinHost.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\Ninject.Extensions.ContextPreservation.xml
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\Ninject.Extensions.NamedScope.xml
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\Ninject.Web.Common.OwinHost.xml
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\Ninject.Web.WebApi.OwinHost.xml
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\NLog.config
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\NLog.Extended.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\NLog.Extended.xml
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\Swashbuckle.Core.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api\bin\Documentation.xml
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\NLog.config
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\Ninject.Extensions.ContextPreservation.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\Ninject.Extensions.NamedScope.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\Ninject.Web.Common.OwinHost.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\Ninject.Web.WebApi.OwinHost.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\NLog.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\Swashbuckle.Core.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\Ninject.Extensions.ContextPreservation.xml
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\Ninject.Extensions.NamedScope.xml
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\Ninject.Web.Common.OwinHost.xml
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api\bin\Ninject.Web.WebApi.OwinHost.xml

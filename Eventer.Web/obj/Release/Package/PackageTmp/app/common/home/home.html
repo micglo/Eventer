@@ -1,0 +1,42 @@
+<div class="row col-md-12">
+    <div class="jumbotron" style="background-color: #1995dc; color: #ffffff">
+        <div class="page-header text-center">
+            <h1>Eventer account management</h1>
+        </div>
+        <p>This single page application is built using AngularJS, it is using OAuth bearer token authentication,
+            ASP.NET Web API 2, OWIN middleware, and ASP.NET Identity to generate tokens and register users.</p>
+    </div>
+</div>
+
+<div class="row col-md-12">
+    <div class="row col-md-12">
+        <div class="row col-md-6">
+            <div class="row col-md-6 col-md-offset-3 text-center">
+                <p class="text-primary">If you have Username and Password, you can use the button below to access the
+                    secured content using a token.</p>
+            </div>
+        </div>
+        <div class="row col-md-6">
+            <div class="row col-md-6 col-md-offset-3 text-center">
+                <p class="text-primary">Use the button below to create Username and Password to access the secured
+                    content using a token.</p>
+            </div>
+        </div>
+    </div>
+    <div class="row col-md-12">
+        <div class="row col-md-6">
+            <div class="row col-md-6 col-md-offset-3 text-center">
+                <button type="button" class="btn btn-lg btn-primary" ng-click="ctrl.openLoginModal()" style="width: 100px;">
+                    Login
+                </button>
+            </div>
+        </div>
+        <div class="row col-md-6">
+            <div class="row col-md-6 col-md-offset-3 text-center">
+                <button type="button" class="btn btn-lg btn-primary" ng-click="ctrl.openSignUpModal()" style="width: 100px;">
+                    Sign up
+                </button>
+            </div>
+        </div>
+    </div>
+</div>

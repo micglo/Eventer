@@ -1,0 +1,67 @@
+<form name="LoginForm" novalidate ng-submit="LoginForm.$valid && ctrl.login(LoginForm, ctrl.user)">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h4 class="modal-title" id="loginModalLabel">Login</h4>
+        </div>
+        <div class="modal-body">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group has-feedback" ng-class="{'has-success': ctrl.loginValid(LoginForm),
+                                'has-error': ctrl.loginInvalid(LoginForm)}">
+                        <label for="login">Login</label>
+                        <input name="Login" type="text" class="form-control" id="login"
+                               placeholder="eventer@eventer.com" required ng-model="ctrl.user.login"
+                               ng-model-options="{updateOn: 'blur'}">
+                        <span ng-show="ctrl.loginValid(LoginForm)" class="glyphicon glyphicon-ok form-control-feedback
+                        text-success"></span>
+                        <span ng-show="ctrl.loginInvalid(LoginForm)"
+                              class="glyphicon glyphicon-remove form-control-feedback text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group has-feedback" ng-class="{'has-success': ctrl.passwordValid(LoginForm),
+                            'has-error': ctrl.passwordInvalid(LoginForm)}">
+                        <label for="password">Password</label>
+                        <input name="Password" type="password" class="form-control" id="password"
+                               placeholder="Enter your password" required ng-model="ctrl.user.password"
+                               ng-model-options="{updateOn: 'blur'}">
+                        <span ng-show="ctrl.passwordValid(LoginForm)" class="glyphicon glyphicon-ok form-control-feedback
+                        text-success"></span>
+                        <span ng-show="ctrl.passwordInvalid(LoginForm)"
+                              class="glyphicon glyphicon-remove form-control-feedback text-danger"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row col-md-12 paddingBottom20" ng-show="ctrl.loginInvalid(LoginForm) || ctrl.passwordInvalid(LoginForm)">
+                <div class="col-md-6" ng-show="ctrl.loginShowError(LoginForm)">
+                    <span class="text-danger" ng-show="LoginForm.Login.$error.required">
+                        Login is required.
+                    </span>
+                </div>
+                <div class="col-md-6" ng-show="ctrl.passwordShowError(LoginForm)">
+                    <span class="text-danger" ng-show="LoginForm.Password.$error.required">
+                        Password is required.
+                    </span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <input name="RememberMe" type="checkbox" id="rememberMe" ng-model="ctrl.user.rememberMe">
+                    <span><label for="rememberMe">Remember me?</label></span>
+                </div>
+            </div>
+
+            <div class="row" style="padding-top: 15px;" ng-show="ctrl.loginError">
+                <div class="col-md-12" style="font-size: 2rem">
+                    <span class="text-danger" ng-show="ctrl.loginError">{{ctrl.loginError}}</span>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <input type="button" class="btn btn-warning pull-left" ng-click="ctrl.reset(LoginForm)" value="Reset" />
+            <button type="button" class="btn btn-danger" ng-click="ctrl.close()">Close</button>
+            <!--<button type="button" class="btn btn-success" ng-click="LoginForm.$valid && ctrl.login(LoginForm, ctrl.user)">Login</button>-->
+            <input type="submit" class="btn btn-success pull-right" value="Login" />
+        </div>
+    </div>
+</form>

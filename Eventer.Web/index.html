@@ -1,0 +1,158 @@
+﻿<!DOCTYPE html>
+<html lang="en" ng-app="app">
+    <head>
+        <meta charset="UTF-8">
+        <title>Eventer</title>
+        <link href="Content/bootstrap.cerulean.min.css" rel="stylesheet" />
+        <link href="style/site.css" rel="stylesheet" />
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <menu></menu>
+        <div class="container">
+            <ng-view></ng-view>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                Eventer<sup>&copy;</sup> - <span id="dateNow"></span>
+            </div>
+        </footer>
+
+        <script>
+            $(function() {
+                var date = new Date();
+                var currentDay = date.getDate();
+                var currentMonth = date.getMonth()+1;
+                var currentYear = date.getFullYear();
+                var dateString = currentDay + '/' + currentMonth + '/' + currentYear;
+                $('#dateNow').text(dateString);
+            });
+        </script>
+
+        <!-- external scripts -->
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.9/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.9/angular-animate.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.9/angular-cookies.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.9/angular-resource.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.9/angular-route.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.9/angular-sanitize.min.js"></script>
+        <script src="https://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-2.3.0.js"></script>
+        <script src="Scripts/ngStorage.min.js"></script>
+
+        <!-- app -->
+        <script src="app/app.js"></script>
+        <script src="app/appConfig.js"></script>
+
+        <!-- common -->
+        <script src="app/common/common.js"></script>
+
+        <!-- menu -->
+        <script src="app/common/menu/menu.js"></script>
+        <script src="app/common/menu/menuController.js"></script>
+        <script src="app/common/menu/menuComponent.js"></script>
+
+        <!-- home -->
+        <script src="app/common/home/home.js"></script>
+        <script src="app/common/home/homeController.js"></script>
+        <script src="app/common/home/homeComponent.js"></script>
+
+        <!-- pageNotFound -->
+        <script src="app/common/pageNotFound/pageNotFound.js"></script>
+        <script src="app/common/pageNotFound/pageNotFoundController.js"></script>
+        <script src="app/common/pageNotFound/pageNotFoundComponent.js"></script>
+        
+        <!-- forbidden -->
+        <script src="app/common/forbidden/forbidden.js"></script>
+        <script src="app/common/forbidden/forbiddenController.js"></script>
+        <script src="app/common/forbidden/forbiddenComponent.js"></script>
+        
+        <!-- core -->
+        <script src="app/core/core.js"></script>
+        <script src="app/core/myHttpInterceptor.js"></script>
+
+        <!-- api -->
+        <script src="app/api/api.js"></script>
+        <script src="app/api/apiConfig.js"></script>
+        <script src="app/api/apiService.js"></script>
+
+        <!-- account -->
+        <script src="app/account/account.js"></script>
+        <script src="app/account/accountController.js"></script>
+        <script src="app/account/accountComponent.js"></script>
+        <script src="app/account/passwordCheckDirective.js"></script>
+
+        <!-- signUp -->
+        <script src="app/account/signUp/signUp.js"></script>
+        <script src="app/account/signUp/signUpController.js"></script>
+        <script src="app/account/signUp/signUpComponent.js"></script>
+        <script src="app/account/signUp/signUpService.js"></script>
+
+        <!-- login -->
+        <script src="app/account/login/login.js"></script>
+        <script src="app/account/login/loginController.js"></script>
+        <script src="app/account/login/loginComponent.js"></script>
+        <script src="app/account/login/loginService.js"></script>
+
+        <!-- auth -->
+        <script src="app/auth/auth.js"></script>
+        <script src="app/auth/authService.js"></script>
+        <script src="app/auth/tokenService.js"></script>
+
+        <!-- changePassword -->
+        <script src="app/account/changePassword/changePassword.js"></script>
+        <script src="app/account/changePassword/changePasswordController.js"></script>
+        <script src="app/account/changePassword/changePasswordComponent.js"></script>
+        <script src="app/account/changePassword/changePasswordService.js"></script>
+        <script src="app/account/changePassword/passwordMatchDirective.js"></script>
+
+        <!-- addClient -->
+        <script src="app/account/addClient/addClient.js"></script>
+        <script src="app/account/addClient/addClientController.js"></script>
+        <script src="app/account/addClient/addClientComponent.js"></script>
+
+        <!-- resetClientSecret -->
+        <script src="app/account/resetClientSecret/resetClientSecret.js"></script>
+        <script src="app/account/resetClientSecret/resetClientSecretController.js"></script>
+        <script src="app/account/resetClientSecret/resetClientSecretComponent.js"></script>
+
+        <!-- myClients -->
+        <script src="app/account/myClients/myClients.js"></script>
+        <script src="app/account/myClients/myClientsController.js"></script>
+        <script src="app/account/myClients/myClientsComponent.js"></script>
+
+        <!-- myClientDetails -->
+        <script src="app/account/myClientDetails/myClientDetails.js"></script>
+        <script src="app/account/myClientDetails/myClientDetailsController.js"></script>
+        <script src="app/account/myClientDetails/myClientDetailsComponent.js"></script>
+        
+        <!-- admin -->
+        <script src="app/admin/admin.js"></script>
+
+        <!-- clients -->
+        <script src="app/admin/clients/clients.js"></script>
+        <script src="app/admin/clients/clientsController.js"></script>
+        <script src="app/admin/clients/clientsComponent.js"></script>
+        
+        <!-- clients details -->
+        <script src="app/admin/clients/clientDetails/clientDetails.js"></script>
+        <script src="app/admin/clients/clientDetails/clientDetailsController.js"></script>
+        <script src="app/admin/clients/clientDetails/clientDetailsComponent.js"></script>
+        <script src="app/admin/clients/clientDetails/infoModalInstanceController.js"></script>
+        
+        <!-- admin addClient-->
+        <script src="app/admin/clients/addClient/addClient.js"></script>
+        <script src="app/admin/clients/addClient/addClientController.js"></script>
+        <script src="app/admin/clients/addClient/addClientComponent.js"></script>
+        
+        <!-- events -->
+        <script src="app/events/events.js"></script>
+        <script src="app/events/eventsController.js"></script>
+        <script src="app/events/eventsComponent.js"></script>
+        
+        <!-- eventDetails-->
+        <script src="app/events/eventDetails/eventDetails.js"></script>
+        <script src="app/events/eventDetails/eventDetailsController.js"></script>
+        <script src="app/events/eventDetails/eventDetailsComponent.js"></script>
+    </body>
+</html>

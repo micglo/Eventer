@@ -1,0 +1,9 @@
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Domain\bin\Release\Eventer.Domain.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Domain\bin\Release\Eventer.Domain.pdb
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Domain\obj\Release\Eventer.Domain.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Domain\obj\Release\Eventer.Domain.pdb
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Domain\bin\Release\Eventer.Domain.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Domain\bin\Release\Eventer.Domain.pdb
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Domain\obj\Release\Eventer.Domain.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Domain\obj\Release\Eventer.Domain.pdb
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Domain\obj\Release\Eventer.Domain.csprojResolveAssemblyReference.cache

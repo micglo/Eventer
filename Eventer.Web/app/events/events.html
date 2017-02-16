@@ -1,0 +1,96 @@
+﻿<div class="row">
+    <div class="col-md-2">
+        <div class="form-group">
+            <label class="control-label" for="itemsPerPage">Items per page</label>
+            <div>
+                <select name="ItemsPerPage" class="form-control" id="itemsPerPage"
+                        ng-options="option.value for option in ctrl.itemsPerPage.availableOptions track by option.id"
+                        required ng-model="ctrl.itemsPerPage.selectedOption"
+                        ng-change="ctrl.getEvents()"></select>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="form-group">
+            <label for="search">Search by title</label>
+            <input name="Search" type="text" class="form-control" id="search"
+                   placeholder="Enter event's title" ng-model="ctrl.search" ng-change="ctrl.getEvents()">
+        </div>
+    </div>
+    <div class="col-md-2 col-md-offset-2">
+        <div class="form-group">
+            <label class="control-label" for="city">Select city</label>
+            <div>
+                <select name="City" class="form-control" id="city"
+                        ng-options="option.value for option in ctrl.city.availableOptions track by option.id"
+                        required ng-model="ctrl.city.selectedOption"
+                        ng-change="ctrl.getEvents()"></select>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <div class="form-group">
+            <label class="control-label" for="eventDateFrom">Start date</label>
+            <div class="input-group">
+                <input type="text" class="form-control" id ="eventDateFrom" uib-datepicker-popup="dd.MM.yyyy" ng-model="ctrl.eventDateFrom" is-open="ctrl.eventDateFromOpened" 
+                       datepicker-options="dateOptions" show-button-bar="false" ng-change="ctrl.getEvents()"/>
+                <span class="input-group-btn">
+                    <button type="button" class="btn btn-default" ng-click="ctrl.openEventDateFrom()"><i class="glyphicon glyphicon-calendar"></i></button>
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="form-group">
+            <label class="control-label" for="eventDateTo">End date</label>
+            <div class="input-group">
+                <input type="text" class="form-control" id="eventDateTo" uib-datepicker-popup="dd.MM.yyyy" ng-model="ctrl.eventDateTo" is-open="ctrl.eventDateToOpened" 
+                       datepicker-options="dateOptions" show-button-bar="false" ng-change="ctrl.getEvents()"/>
+                <span class="input-group-btn">
+                    <button type="button" class="btn btn-default" ng-click="ctrl.openEventDateTo()"><i class="glyphicon glyphicon-calendar"></i></button>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row" ng-hide="ctrl.noEvents">
+    <div class="col-md-12">
+        <table>
+            <thead>
+            <tr>
+                <th>Date</th>
+                <th>&nbsp;&nbsp;&nbsp;</th>
+                <th>Event</th>
+            </tr>
+            </thead>
+            <tbody ng-repeat="event in ctrl.events">
+            <tr class="clickableRow" ng-click="ctrl.goToEventDetails(event.id)" ng-class-odd="'odd'" ng-class-even="'even'">
+                <td>{{event.eventDate | date: 'dd.MM.yyyy HH:mm'}}</td>
+                <td>&nbsp;&nbsp;&nbsp;</td>
+                <td>{{event.eventName}}</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div class="row" ng-show="ctrl.noEvents">
+    <div class="col-md-12">{{ctrl.noEvents}}</div>
+</div>
+
+<div class="row" ng-hide="ctrl.search.length > 0 || ctrl.noEvents">
+    <div class="col-md-12">
+        <ul uib-pagination boundary-link-numbers="true" total-items="ctrl.totalItems" items-per-page="ctrl.itemsPerPage.selectedOption.value"
+            ng-model="ctrl.currentPage" max-size="5" ng-change="ctrl.getEvents()"></ul>
+    </div>
+</div>
+
+<div class="row" ng-show="ctrl.search.length > 0" ng-hide="ctrl.noEvents || !ctrl.search.length">
+    <div class="col-md-12">
+        <ul uib-pagination boundary-link-numbers="true" total-items="ctrl.totalSearchItems" items-per-page="ctrl.itemsPerPage.selectedOption.value"
+            ng-model="ctrl.currentSearchPage" max-size="5" ng-change="ctrl.getEventsByName()"></ul>
+    </div>
+</div>

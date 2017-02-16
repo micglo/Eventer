@@ -1,0 +1,117 @@
+﻿<div ng-hide="ctrl.clientDetailsError">
+    <form name="ClientDetailsForm" novalidate ng-submit="ClientDetailsForm.$valid && ctrl.editClient(ClientDetailsForm, ctrl.client)">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="clientId">Client id</label>
+                    <input name="ClientId" type="text" class="form-control" id="clientId" ng-model="ctrl.client.id" readonly>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group" ng-class="{'has-success': ctrl.refreshTokenValid(ClientDetailsForm),
+                            'has-error': ctrl.refreshTokenInvalid(ClientDetailsForm)}">
+                    <label for="refreshTokenLifeTime">Refresh token life time</label>
+                    <input name="RefreshTokenLifeTime" type="text" class="form-control" id="refreshTokenLifeTime" ng-model="ctrl.client.refreshTokenLifeTime" 
+                           required ng-model-options="{updateOn: 'blur'}">
+                </div>
+            </div>
+        </div>
+        <div class="row paddingBottom20" ng-show="ctrl.refreshTokenShowError(ClientDetailsForm)">
+            <div class="col-md-6 col-md-offset-6">
+                <span class="text-danger" ng-show="ClientDetailsForm.RefreshTokenLifeTime.$error.required">
+                    Refresh token life time is required.
+                </span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group" ng-class="{'has-success': ctrl.usernameValid(ClientDetailsForm),
+                            'has-error': ctrl.usernameInvalid(ClientDetailsForm)}">
+                    <label for="username">Username</label>
+                    <input name="Username" type="text" class="form-control" id="username" ng-model="ctrl.client.username" 
+                           required ng-model-options="{updateOn: 'blur'}">
+                </div>
+            </div> 
+            <div class="col-md-6">
+                <div class="form-group has-feedback">
+                    <label class="control-label" for="jsClientUrl">Is JavaScript client?</label>
+                    <div class="input-group" ng-class="{'has-success': ctrl.jsClientValid(ClientDetailsForm),
+                                'has-error': ctrl.jsClientInvalid(ClientDetailsForm)}">
+                        <span class="input-group-addon control-label">
+                            <input name="IsJsClient" type="checkbox" id="iSJsClient" ng-model="ctrl.client.isJsClient"
+                                   ng-change="ctrl.clearJsClientUrl(ClientDetailsForm)">
+                        </span>
+                        <input name="JsClientUrl" type="url" class="form-control" id="jsClientUrl"
+                               ng-model="ctrl.client.jsClientUrl" ng-disabled="!ctrl.client.isJsClient"
+                               ng-required="ctrl.client.isJsClient" ng-model-options="{updateOn: 'blur'}">
+                    </div>
+                    <span ng-show="ctrl.jsClientShowValidIcon(ClientDetailsForm)"
+                          class="glyphicon glyphicon-ok form-control-feedback text-success">
+
+                    </span>
+                    <span ng-show="ctrl.jsClientShowInvalidIcon(ClientDetailsForm)"
+                          class="glyphicon glyphicon-remove form-control-feedback text-danger"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 paddingBottom20" ng-show="ctrl.usernameShowError(ClientDetailsForm)">
+                <span class="text-danger" ng-show="ClientDetailsForm.Username.$error.required">
+                    Username is required.
+                </span>
+            </div>
+            <div class="col-md-6" ng-show="ctrl.jsClientShowError(ClientDetailsForm)">
+                <span class="text-danger" ng-show="ClientDetailsForm.JsClientUrl.$error.required">
+                    Provide your JavaScript client url.
+                </span>
+                <span class="text-danger" ng-show="ClientDetailsForm.JsClientUrl.$error.url">
+                    This is not a valid url.
+                </span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 checkbox">
+                <label>
+                    <input type="checkbox" ng-model="ctrl.client.active"> Is Active?
+                </label>
+            </div>
+        </div>
+        <div class="row" style="padding-top: 15px;" ng-show="ctrl.client.isJsClient">
+            <div class="col-md-1">
+                <a href="#!/admin/clients" class="btn btn-primary pull-left">Back</a>
+            </div>
+            <div class="col-md-1 col-md-offset-8" style="padding-right: 0;">
+                <input type="button" class="btn btn-warning pull-right" ng-click="ctrl.reset(ClientDetailsForm)" value="Reset" />
+            </div>
+            <div class="col-md-1 text-center" style="padding-right: 0;">
+                <input type="button" class="btn btn-danger pull-right" ng-click="ctrl.deleteClient()" value="Delete" />
+            </div>
+            <div class="col-md-1 text-center">
+                <input type="submit" class="btn btn-success pull-right" value="Save" />
+            </div>
+        </div>
+        <div class="row" style="padding-top: 15px;" ng-hide="ctrl.client.isJsClient">
+            <div class="col-md-1">
+                <a href="#!/admin/clients" class="btn btn-primary pull-left">Back</a>
+            </div>
+            <div class="col-md-1 col-md-offset-6" style="padding-right: 0;">
+                <input type="button" class="btn btn-warning pull-right" ng-click="ctrl.reset(ClientDetailsForm)" value="Reset" />
+            </div>
+            <div class="col-md-2" style="padding-left:0; padding-right: 0;">
+                <input type="button" class="btn btn-info pull-right" ng-click="ctrl.resetClientSecret(ClientDetailsForm, ctrl.client)" value="Reset secret" />
+            </div>
+            <div class="col-md-1 text-center" style="padding-right: 0;">
+                <input type="button" class="btn btn-danger pull-right" ng-click="ctrl.deleteClient()" value="Delete" />
+            </div>
+            <div class="col-md-1 text-center">
+                <input type="submit" class="btn btn-success pull-right" value="Save" />
+            </div>
+        </div>
+    </form>
+</div>
+<div class="row" ng-show="ctrl.clientDetailsError" style="padding-top: 15px;">
+    <div class="col-md-12">
+        <span class="text-danger">{{ctrl.clientDetailsError}}</span>
+    </div>
+</div>
+

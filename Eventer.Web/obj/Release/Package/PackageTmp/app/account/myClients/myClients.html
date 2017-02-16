@@ -1,0 +1,25 @@
+<div class="row" ng-cloak>
+    <div class="col-md-12">
+        <ul>
+            <li ng-repeat="client in ctrl.clients">
+                <a href="#!/myAccount/myClients/{{client.id}}">{{client.id}}</a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="row" ng-show="ctrl.myClientsError">
+    <div class="col-md-12">
+        <span class="text-danger">{{ctrl.myClientsError}}</span>
+    </div>
+</div>
+<div class="row" ng-show="!ctrl.clients.length && !ctrl.myClientsError">
+    <div class="col-md-12">
+        <span class="text-danger">You don't have any clients.</span>
+    </div>
+</div>
+<div class="row" style="padding-top: 15px;">
+    <div class="col-md-1">
+        <a href="#!/myAccount" class="btn btn-primary pull-left">Back</a>
+    </div>
+</div>

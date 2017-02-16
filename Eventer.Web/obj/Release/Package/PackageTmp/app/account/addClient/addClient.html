@@ -1,0 +1,57 @@
+<form name="AddClientForm" novalidate ng-submit="AddClientForm.$valid && ctrl.addClient(AddClientForm, ctrl.client)">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h4 class="modal-title" id="addClientModalLabel">Add client</h4>
+        </div>
+        <div class="modal-body">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group has-feedback">
+                        <label class="control-label" for="jsClientUrl">Is JavaScript client?</label>
+                        <div class="input-group" ng-class="{'has-success': ctrl.jsClientValid(AddClientForm),
+                                'has-error': ctrl.jsClientInvalid(AddClientForm)}">
+                            <span class="input-group-addon control-label">
+                                <input name="IsJsClient" type="checkbox" id="iSJsClient" ng-model="ctrl.client.isJsClient"
+                                       ng-change="ctrl.clearJsClientUrl(AddClientForm)">
+                            </span>
+                            <input name="JsClientUrl" type="url" class="form-control" id="jsClientUrl"
+                                   placeholder="https://eventer.azure.websites.net" ng-model="ctrl.client.jsClientUrl"
+                                   ng-disabled="!ctrl.client.isJsClient"
+                                   ng-required="ctrl.client.isJsClient" ng-model-options="{updateOn: 'blur'}">
+                        </div>
+                        <span ng-show="ctrl.jsClientShowValidIcon(AddClientForm)"
+                              class="glyphicon glyphicon-ok form-control-feedback text-success">
+
+                        </span>
+                        <span ng-show="ctrl.jsClientShowInvalidIcon(AddClientForm)"
+                              class="glyphicon glyphicon-remove form-control-feedback text-danger"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" ng-show="ctrl.jsClientInvalid(AddClientForm)">
+                <div class="col-md-12" ng-show="ctrl.jsClientShowError(AddClientForm)">
+                    <span class="text-danger" ng-show="AddClientForm.JsClientUrl.$error.required">
+                        Provide your JavaScript client url.
+                    </span>
+                    <span class="text-danger" ng-show="AddClientForm.JsClientUrl.$error.url">
+                        This is not a valid url.
+                    </span>
+                </div>
+            </div>
+
+            <div class="row" style="padding-top: 15px;" ng-show="ctrl.addClientResponse()">
+                <div class="col-md-12" style="font-size: 2rem">
+                    <span class="text-success" ng-show="ctrl.addClientSuccess">{{ctrl.addClientSuccess}}</span>
+                    <span class="text-danger" ng-show="ctrl.addClientError">{{ctrl.addClientError}}</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal-footer">
+            <input type="button" class="btn btn-warning pull-left" ng-click="ctrl.reset(AddClientForm)" value="Reset" />
+            <button type="button" class="btn btn-danger" ng-click="ctrl.close()">Close</button>
+            <input type="submit" class="btn btn-success pull-right" value="Add" />
+        </div>
+    </div>
+</form>

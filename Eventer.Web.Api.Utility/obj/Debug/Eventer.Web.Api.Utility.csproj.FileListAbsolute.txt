@@ -1,0 +1,99 @@
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api.Utility\bin\Debug\Eventer.Web.Api.Utility.dll
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api.Utility\bin\Debug\Eventer.Web.Api.Utility.pdb
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api.Utility\obj\Debug\Eventer.Web.Api.Utility.dll
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Web.Api.Utility\obj\Debug\Eventer.Web.Api.Utility.pdb
+C:\Users\Michal\documents\visual studio 2015\Projects\Eventer\Eventer.Web.Api.Utility\bin\Debug\System.Web.Http.dll
+C:\Users\Michal\documents\visual studio 2015\Projects\Eventer\Eventer.Web.Api.Utility\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Michal\documents\visual studio 2015\Projects\Eventer\Eventer.Web.Api.Utility\bin\Debug\System.Web.Http.xml
+C:\Users\Michal\documents\visual studio 2015\Projects\Eventer\Eventer.Web.Api.Utility\obj\Debug\Eventer.Web.Api.Utility.csprojResolveAssemblyReference.cache
+C:\Users\Michal\documents\visual studio 2015\Projects\Eventer\Eventer.Web.Api.Utility\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Michal\documents\visual studio 2015\Projects\Eventer\Eventer.Web.Api.Utility\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Michal\documents\visual studio 2015\Projects\Eventer\Eventer.Web.Api.Utility\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\Eventer.Web.Api.Utility.dll.config
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\Eventer.Web.Api.Utility.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\Eventer.Web.Api.Utility.pdb
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\Eventer.Model.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\Eventer.Service.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\Microsoft.Owin.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\Newtonsoft.Json.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\Ninject.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\NLog.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\Owin.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\System.Web.Http.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\Eventer.Domain.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\Eventer.Repository.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\Eventer.Mapper.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\Eventer.Utility.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\EntityFramework.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\Eventer.Dal.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\Eventer.Model.pdb
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\Eventer.Service.pdb
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\Microsoft.Owin.xml
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\Ninject.xml
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\NLog.xml
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\System.Web.Http.xml
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\Eventer.Domain.pdb
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\Eventer.Repository.pdb
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\Eventer.Mapper.pdb
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\Eventer.Utility.pdb
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\EntityFramework.xml
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\Eventer.Dal.pdb
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api.Utility\obj\Debug\Eventer.Web.Api.Utility.csprojResolveAssemblyReference.cache
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api.Utility\obj\Debug\Eventer.Web.Api.Utility.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api.Utility\obj\Debug\Eventer.Web.Api.Utility.pdb
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\Eventer.Web.Api.Utility.dll.config
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\Eventer.Web.Api.Utility.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\Eventer.Web.Api.Utility.pdb
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\Eventer.Model.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\Eventer.Service.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\Microsoft.Owin.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\Ninject.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\NLog.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\Owin.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\System.Web.Http.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\Eventer.Domain.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\Eventer.Repository.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\Eventer.Mapper.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\Eventer.Utility.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\EntityFramework.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\Eventer.Dal.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\Eventer.Model.pdb
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\Eventer.Service.pdb
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\Microsoft.Owin.xml
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\Ninject.xml
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\NLog.xml
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\System.Web.Http.xml
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\Eventer.Domain.pdb
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\Eventer.Repository.pdb
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\Eventer.Mapper.pdb
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\Eventer.Utility.pdb
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\EntityFramework.xml
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\Eventer.Dal.pdb
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api.Utility\obj\Debug\Eventer.Web.Api.Utility.csprojResolveAssemblyReference.cache
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api.Utility\obj\Debug\Eventer.Web.Api.Utility.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api.Utility\obj\Debug\Eventer.Web.Api.Utility.pdb
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Web.Api.Utility\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml

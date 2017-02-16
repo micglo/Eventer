@@ -1,0 +1,48 @@
+﻿<div class="row">
+    <div class="col-md-2">
+        <div class="form-group">
+            <label class="control-label" for="itemsPerPage">Items per page</label>
+            <div>
+                <select name="ItemsPerPage" class="form-control" id="itemsPerPage"
+                        ng-options="option.value for option in ctrl.itemsPerPage.availableOptions track by option.id"
+                        ng-model="ctrl.itemsPerPage.selectedOption" 
+                        ng-change="ctrl.pageChanged()"></select>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-2 col-md-offset-8 text-right">
+        <button type="button" class="btn btn-lg btn-primary" ng-click="ctrl.openAddClientModal()">
+            Add client
+        </button>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <table id="clients">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Client id</th>
+                    <th>&nbsp;&nbsp;&nbsp;</th>
+                    <th>Username</th>
+                </tr>
+            </thead>
+            <tbody ng-repeat="client in ctrl.clients">
+                <tr class="clickableRow" ng-click="ctrl.goToClientDetails(client.id)" ng-class-odd="'odd'" ng-class-even="'even'">
+                    <td>{{ $index + 1 }}</td>
+                    <td>{{client.id}}</td>
+                    <td>&nbsp;&nbsp;&nbsp;</td>
+                    <td>{{client.username}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <ul uib-pagination boundary-link-numbers="true" total-items="ctrl.totalItems" items-per-page="ctrl.itemsPerPage.selectedOption.value" 
+            ng-model="ctrl.currentPage" max-size="5" ng-change="ctrl.pageChanged()"></ul>
+    </div>
+</div>

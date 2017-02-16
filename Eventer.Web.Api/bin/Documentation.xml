@@ -1,0 +1,1146 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Eventer.Web.Api</name>
+    </assembly>
+    <members>
+        <member name="T:Eventer.Web.Api.Controllers.V1.AccountController">
+            <summary>
+            Account management
+            </summary>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.AccountController.#ctor(Eventer.Web.Api.ApplicationUserManager,Eventer.Service.RoleManager.ApplicationRoleManager,Eventer.Service.RoleService.IRoleService,Eventer.Utility.CustomException.ICustomException)">
+            <summary>
+            Account controller
+            </summary>
+            <param name="customException"></param>
+            <param name="userManager"></param>
+            <param name="roleManager"></param>
+            <param name="roleService"></param>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.AccountController.GetUserInfo(System.String)">
+            <summary>
+            Get single user info
+            </summary>
+            <remarks>
+            Get single user info
+            </remarks>
+            <param name="id">Id of user</param>
+            <returns>Single user</returns>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Forbidden</response>
+            <response code="404">User not found</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.AccountController.GetUserRoles(System.String,Eventer.Model.QueryString.Pagination.Pagination)">
+            <summary>
+            Get single user roles
+            </summary>
+            <remarks>
+            Get single user roles
+            </remarks>
+            <param name="id">Id of user</param>
+            <param name="paginationModel">page, pageSize variables</param>
+            <returns>Paged list of user roles</returns>
+            /// <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Forbidden</response>
+            <response code="404">User not found</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.AccountController.Register(Eventer.Model.BindingModel.Account.RegisterBindingModel)">
+            <summary>
+            Register new user
+            </summary>
+            <remarks>
+            Register new user
+            </remarks>
+            <param name="model">Model with data to register new user</param>
+            <returns>Http status code</returns>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.AccountController.ResendActivationLink(Eventer.Model.BindingModel.Account.AuthorizationBindingModel)">
+            <summary>
+            Resend activation link to confirm registered account
+            </summary>
+            <remarks>
+            Resend activation link to confirm registered account
+            </remarks>
+            <param name="model">Model with data to resend activation link</param>
+            <returns>Http status code</returns>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthorized</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.AccountController.ChangePassword(Eventer.Model.BindingModel.Account.ChangePasswordBindingModel)">
+            <summary>
+            Change user password
+            </summary>
+            <remarks>
+            Change user password
+            </remarks>
+            <param name="model">Model with data to change password</param>
+            <returns>Http status code</returns>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthorized</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="T:Eventer.Web.Api.Controllers.V1.ApiActivityLogsController">
+            <summary>
+            Controller with actions to manage api activity logs.
+            Administrators only.
+            </summary>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.ApiActivityLogsController.#ctor(Eventer.Service.ApiActivity.Interface.IApiActivityLogService)">
+            <summary>
+            ApiActivityLogs Controller
+            </summary>
+            <param name="apiActivityLogService"></param>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.ApiActivityLogsController.GetApiActivityLogs(Eventer.Model.QueryString.Pagination.Pagination)">
+            <summary>
+            Get all information about api activity. Administratos only.
+            </summary>
+            <remarks>
+            Get all information about api activity. Administratos only.
+            </remarks>
+            <param name="paginationModel">Model representing query string</param>
+            <returns>Paged list of api activity data</returns>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Forbidden</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.ApiActivityLogsController.GetApiActivityLog(System.Int64)">
+            <summary>
+            Get single api activity log specified by id. Administratos only.
+            </summary>
+            <remarks>
+            Get single api activity log specified by id. Administratos only.
+            </remarks>
+            <param name="id">Id of particular api activity log</param>
+            <returns>Single api activity log</returns>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Forbidden</response>
+            <response code="404">Log not found</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.ApiActivityLogsController.GetApiActivityLogsByUser(System.String,Eventer.Model.QueryString.Pagination.Pagination)">
+            <summary>
+            Get all information about api activity specified by username. Administratos only.
+            </summary>
+            <remarks>
+            Get all information about api activity specified by username. Administratos only.
+            </remarks>
+            <param name="paginationModel">Model representing query string</param>
+            <param name="userName">user's email</param>
+            <returns>Paged list of api activity by single user</returns>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Forbidden</response>
+            <response code="404">User not found</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.ApiActivityLogsController.GetApiActivityLogsByHost(System.String,Eventer.Model.QueryString.Pagination.Pagination)">
+            <summary>
+            Get all information about api activity specified by hostAddress. Administratos only.
+            </summary>
+            <remarks>
+            Get all information about api activity specified by hostAddress. Administratos only.
+            </remarks>
+            <param name="paginationModel">Model representing query string</param>
+            <param name="hostAddress">Host address</param>
+            <returns>Paged list of api activity by hostAddress</returns>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Forbidden</response>
+            <response code="404">Host not found</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.ApiActivityLogsController.DeleteApiActivityLog(System.Int64)">
+            <summary>
+            Delete api activity log specified by id. Administratos only.
+            </summary>
+            <remarks>
+            Delete api activity log specified by id. Administratos only.
+            </remarks>
+            <param name="id">Id of api activity log</param>
+            <returns>Removed api activity log</returns>
+            <response code="200">Success</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Forbidden</response>
+            <response code="404">Log not found</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.ApiActivityLogsController.DeleteApiActivityLogs">
+            <summary>
+            Delete all api avtivity logs. Administratos only.
+            </summary>
+            <remarks>
+            Delete all api avtivity logs. Administratos only.
+            </remarks>
+            <returns>Http status code</returns>
+            <response code="200">Success</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Forbidden</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="T:Eventer.Web.Api.Controllers.V1.CategoriesController">
+            <summary>
+            Controller with actions to manage categories.
+            Administrators only.
+            </summary>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.CategoriesController.#ctor(Eventer.Service.EventerService.Interface.ICategoryService,Eventer.Utility.CustomException.ICustomException)">
+            <summary>
+            Categories Controller
+            </summary>
+            <param name="customException"></param>
+            <param name="categoryService"></param>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.CategoriesController.GetCategories(Eventer.Model.QueryString.Pagination.Pagination)">
+            <summary>
+            Get all categories
+            </summary>
+            <remarks>
+            Get all categories
+            </remarks>
+            <param name="paginationModel">Model representing query string</param>
+            <returns>Paged list with categories</returns>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthorized</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.CategoriesController.GetCategory(System.Int32)">
+            <summary>
+            Get single category specified by id
+            </summary>
+            <remarks>
+            Get single category specified by id
+            </remarks>
+            <param name="id">Id of category</param>
+            <returns>Single category</returns>
+            <response code="200">Success</response>
+            <response code="401">Unauthorized</response>
+            <response code="404">Category not found</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.CategoriesController.GetCategoryByName(System.String)">
+            <summary>
+            Get single category specified by categoryName
+            </summary>
+            <remarks>
+            Get single category specified by categoryName
+            </remarks>
+            <param name="categoryName">Name of category</param>
+            <returns>Single category</returns>
+            <response code="200">Success</response>
+            <response code="401">Unauthorized</response>
+            <response code="404">Category not found</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.CategoriesController.PutCategory(System.Int32,Eventer.Model.Dto.Category.CategoryDto)">
+            <summary>
+            Edit category. Administrators only.
+            </summary>
+            <remarks>
+            Edit category. Administrators only.
+            </remarks>
+            <param name="id">Id of category</param>
+            <param name="category">Category model with data to edit</param>
+            <returns>Edited category</returns>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Forbidden</response>
+            <response code="404">Category not found</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.CategoriesController.PostCategory(Eventer.Model.Dto.Category.CategoryPostDto)">
+            <summary>
+            Add new category. Administrators only.
+            </summary>
+            <remarks>
+            Add new category. Administrators only.
+            </remarks>
+            <param name="category">Category model with data to insert</param>
+            <returns>Created category</returns>
+            <response code="201">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Forbidden</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.CategoriesController.PostCategoryAsList(Eventer.Model.Dto.Category.CategoryPostAsListDto)">
+            <summary>
+            Add range of categories. Administrators only.
+            </summary>
+            <remarks>
+            Add range of categories. Administrators only.
+            </remarks>
+            <param name="categoryList">Model with list of categories to insert</param>
+            <returns>List of created categories</returns>
+            <response code="201">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Forbidden</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.CategoriesController.DeleteCategory(System.Int32)">
+            <summary>
+            Delete category by specified id. Administrators only.
+            </summary>
+            <remarks>
+            Delete category by specified id. Administrators only.
+            </remarks>
+            <param name="id">Id of category</param>
+            <returns>Deleted category</returns>
+            <response code="200">Success</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Forbidden</response>
+            <response code="404">Category not found</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="T:Eventer.Web.Api.Controllers.V1.CitiesController">
+            <summary>
+            Controller with actions to manage cities.
+            Administrators only.
+            </summary>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.CitiesController.#ctor(Eventer.Service.EventerService.Interface.ICityService,Eventer.Service.EventerService.Interface.IStateService,Eventer.Utility.CustomException.ICustomException)">
+            <summary>
+            Cities Controller
+            </summary>
+            <param name="customException"></param>
+            <param name="cityService"></param>
+            <param name="stateService"></param>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.CitiesController.GetCities(Eventer.Model.QueryString.Pagination.Pagination)">
+            <summary>
+            Get list of cities
+            </summary>
+            <remarks>
+            Get list of cities
+            </remarks>
+            <param name="paginationModel">Model representing query string</param>
+            <returns>Paged list of cities</returns>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthorized</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.CitiesController.GetCity(System.Int32)">
+            <summary>
+            Get single city specified by id
+            </summary>
+            <remarks>
+            Get single city specified by id
+            </remarks>
+            <param name="id">Id of city</param>
+            <returns>Single city</returns>
+            <response code="200">Success</response>
+            <response code="401">Unauthorized</response>
+            <response code="404">City not found</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.CitiesController.GetCityByName(System.String)">
+            <summary>
+            Get single city specified by name
+            </summary>
+            <remarks>
+            Get single city specified by name
+            </remarks>
+            <param name="cityName">Name of the city</param>
+            <returns>Single city</returns>
+            <response code="200">Success</response>
+            <response code="401">Unauthorized</response>
+            <response code="404">City not found</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.CitiesController.PutCity(System.Int32,Eventer.Model.Dto.City.CityPutDto)">
+            <summary>
+            Edit particular city specified by id. Administrators only.
+            </summary>
+            <remarks>
+            Edit particular city specified by id. Administratos only.
+            </remarks>
+            <param name="id">Id of city</param>
+            <param name="city">City data model</param>
+            <returns>Single city</returns>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Forbidden</response>
+            <response code="404">City/State not found</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.CitiesController.PostState(Eventer.Model.Dto.City.CityPostDto)">
+            <summary>
+             Create new city. Administrators only.
+            </summary>
+            <remarks>
+            Create new city. Administrators only.
+            </remarks>
+            <param name="city">City data model</param>
+            <returns>Created city</returns>
+            <response code="201">Success</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Forbidden</response>
+            <response code="404">State Not found</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.CitiesController.DeleteCity(System.Int32)">
+            <summary>
+            Delete city specified by id. Administratos only.
+            </summary>
+            <remarks>
+            Delete city specified by id. Administratos only.
+            </remarks>
+            <param name="id">Id of city</param>
+            <returns>Http status code</returns>
+            <response code="200">Success</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Forbidden</response>
+            <response code="404">City not found</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="T:Eventer.Web.Api.Controllers.V1.ClientsController">
+            <summary>
+            Controller with actions to manage clients.
+            </summary>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.ClientsController.#ctor(Eventer.Service.Client.Interface.IClientService,Eventer.Web.Api.ApplicationUserManager,Eventer.Service.RoleManager.ApplicationRoleManager,Eventer.Utility.CustomException.ICustomException)">
+            <summary>
+            Clients Controller
+            </summary>
+            <param name="customException"></param>
+            <param name="clientService"></param>
+            <param name="userManager"></param>
+            <param name="roleManager"></param>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.ClientsController.GetClients(Eventer.Model.QueryString.Pagination.Pagination)">
+            <summary>
+            Get list of clients. Administratos only.
+            </summary>
+            <remarks>
+            Get list of clients. Administratos only.
+            </remarks>
+            <param name="paginationModel">Model representing query string</param>
+            <returns>Paged list fo clients</returns>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Forbidden</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.ClientsController.GetClient(System.String)">
+            <summary>
+            Get single lcients specified by id. Administratos only.
+            </summary>
+            <remarks>
+            Get single lcients specified by id. Administratos only.
+            </remarks>
+            <param name="id">Id of client</param>
+            <returns>Single client</returns>
+            <response code="200">Success</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Forbidden</response>
+            <response code="404">Client not found</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.ClientsController.PutClient(System.String,Eventer.Model.Dto.Client.ClientDto)">
+            <summary>
+            Edit client specified by id. Administratos only.
+            </summary>
+            <remarks>
+            Edit client specified by id. Administratos only.
+            </remarks>
+            <param name="id">Id of client</param>
+            <param name="client">Client data model</param>
+            <returns>Edited client</returns>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Forbidden</response>
+            <response code="404">Client not found</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.ClientsController.PutClientNoSecret(System.String,Eventer.Model.Dto.Client.ClientNoSecretDto)">
+            <summary>
+            Edit client without secret change. Administrators only.
+            </summary>
+            <remarks>
+            Edit client without secret change. Administrators only.
+            </remarks>
+            <param name="id">Id of client</param>
+            <param name="client">Data client model</param>
+            <returns>Edited client</returns>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Forbidden</response>
+            <response code="404">Client not found</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.ClientsController.PostClient(Eventer.Model.Dto.Client.ClientPostDto)">
+            <summary>
+            Create new client. Administrators only.
+            </summary>
+            <remarks>
+            Create new client. Administrators only.
+            </remarks>
+            <param name="client">Client data model</param>
+            <returns>Created client</returns>
+            <response code="201">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Forbidden</response>
+            <response code="404">User not found</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.ClientsController.DeleteClient(System.String)">
+            <summary>
+            Delete client. Administraors only.
+            </summary>
+            <remarks>
+            Delete client. Administraors only.
+            </remarks>
+            <param name="id">Id of client.</param>
+            <returns>Http status code</returns>
+            <response code="200">Success</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Forbidden</response>
+            <response code="404">Client not found</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.ClientsController.GetUserClients(System.String,Eventer.Model.QueryString.Pagination.Pagination)">
+            <summary>
+            Get all user clients. Administraors only.
+            </summary>
+            <remarks>
+            Get all user clients. Administraors only.
+            </remarks>
+            <param name="userName">Name of the user</param>
+            <param name="paginationModel">Model representing query string</param>
+            <returns>Paged client list</returns>
+            <response code="401">Unauthorized</response>
+            <response code="403">Forbidden</response>
+            <response code="404">User not found</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.ClientsController.ResetClientSecret(Eventer.Model.BindingModel.Client.ResetClientSecretBindingModel)">
+            <summary>
+            Reset client secret. Administrators only.
+            </summary>
+            <remarks>
+            Reset client secret. Administrators only.
+            </remarks>
+            <param name="model">Client data model.</param>
+            <returns>Single client.</returns>
+            <response code="200">Success</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Forbidden</response>
+            <response code="404">Client not found</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.ClientsController.GetMyClients(Eventer.Model.QueryString.Pagination.Pagination)">
+            <summary>
+            Get list of my clients.
+            </summary>
+            <remarks>
+            Get list of my clients.
+            </remarks>
+            <param name="paginationModel">Model representing query string</param>
+            <returns>Paged list of my clients.</returns>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthorized</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.ClientsController.GetMyClient(System.String)">
+            <summary>
+            Get my client specified by id.
+            </summary>
+            <remarks>
+            Get my client specified by id.
+            </remarks>
+            <param name="id">Id of client.</param>
+            <returns>Single client.</returns>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthorized</response>
+            <response code="404">Client not found</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.ClientsController.AddClient(Eventer.Model.Dto.Client.AddClientDto)">
+            <summary>
+            Add new client.
+            </summary>
+            <remarks>
+            Add new client.
+            </remarks>
+            <param name="addClientModel">Client data model.</param>
+            <returns>Created client.</returns>
+            <response code="201">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthorized</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.ClientsController.ResetMyClientSecret(Eventer.Model.BindingModel.Client.ResetClientSecretBindingModel)">
+            <summary>
+            Reset my client secret.
+            </summary>
+            <remarks>
+            Reset my client secret.
+            </remarks>
+            <param name="model">Client data model.</param>
+            <returns>Single client.</returns>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthorized</response>
+            <response code="404">Client not found</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.ClientsController.PutMyClient(System.String,Eventer.Model.Dto.Client.ClientNoSecretDto)">
+            <summary>
+            Edit my client.
+            </summary>
+            <remarks>
+            Edit my client.
+            </remarks>
+            <param name="id">Id of client.</param>
+            <param name="client">Client data model</param>
+            <returns>Single client.</returns>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthorized</response>
+            <response code="404">Client not found</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="T:Eventer.Web.Api.Controllers.V1.ErrorLogsController">
+            <summary>
+            Controller with actions to manage error logs.
+            </summary>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.ErrorLogsController.#ctor(Eventer.Service.ErrorLog.Interface.IErrorLogService,Eventer.Web.Api.ApplicationUserManager,Eventer.Utility.CustomException.ICustomException)">
+            <summary>
+            Error logs Controller
+            </summary>
+            <param name="customException"></param>
+            <param name="errorLogService"></param>
+            <param name="userManager"></param>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.ErrorLogsController.GetErrorLogs(Eventer.Model.QueryString.Pagination.Pagination)">
+            <summary>
+            Get list of error logs. Administrators only.
+            </summary>
+            <remarks>
+            Get list of error logs. Administrators only.
+            </remarks>
+            <param name="paginationModel">Model representing query string</param>
+            <returns>Paged list of error logs.</returns>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Forbidden</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.ErrorLogsController.GetErrorLog(System.Int64)">
+            <summary>
+            Get single error log specified by id.  Administrators only.
+            </summary>
+            <remarks>
+            Get single error log specified by id.  Administrators only.
+            </remarks>
+            <param name="id">If of error log.</param>
+            <returns>Single error log.</returns>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Forbidden</response>
+            <response code="404">Log not found</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.ErrorLogsController.GetErrorLogsByUser(System.String,Eventer.Model.QueryString.Pagination.Pagination)">
+            <summary>
+            Get list of error los for single user specified by username. Administrators only.
+            </summary>
+            <remarks>
+            Get list of error los for single user specified by username. Administrators only.
+            </remarks>
+            <param name="paginationModel">Model representing query string</param>
+            <param name="userName">Name of the user</param>
+            <returns>Paged list of error logs.</returns>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Forbidden</response>
+            <response code="404">Log/User not found</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.ErrorLogsController.DeleteErrorLog(System.Int64)">
+            <summary>
+            Delete error log. Administrators only.
+            </summary>
+            <remarks>
+            Delete error log. Administrators only.
+            </remarks>
+            <param name="id">Id of error log.</param>
+            <returns>Http status code.</returns>
+            <response code="200">Success</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Forbidden</response>
+            <response code="404">Log not found</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.ErrorLogsController.DeleteErrorLogs">
+            <summary>
+            Delete all error logs. Administrators only.
+            </summary>
+            <remarks>
+            Delete all error logs. Administrators only.
+            </remarks>
+            <returns></returns>
+            <response code="200">Success</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Forbidden</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="T:Eventer.Web.Api.Controllers.V1.EventsController">
+            <summary>
+            Controller with actions to manage events.
+            </summary>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.EventsController.#ctor(Eventer.Service.EventerService.Interface.IEventService,Eventer.Service.EventerService.Interface.ICityService,Eventer.Service.EventerService.Interface.ICategoryService,Eventer.Utility.CustomException.ICustomException)">
+            <summary>
+            Events Controller
+            </summary>
+            <param name="customException"></param>
+            <param name="eventService"></param>
+            <param name="cityService"></param>
+            <param name="categoryService"></param>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.EventsController.GetEvents(Eventer.Model.QueryString.Event.EventQueryModel)">
+            <summary>
+            Get list of events specified by query strings.
+            </summary>
+            <remarks>
+            Get list of events specified by query strings.
+            </remarks>
+            <param name="queryModel">Model representing query string</param>
+            <returns>Paged list fo events.</returns>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthorized</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.EventsController.GetEvent(System.Int64)">
+            <summary>
+            Get single event specified by id.
+            </summary>
+            <remarks>
+            Get single event specified by id.
+            </remarks>
+            <param name="id">Id of event.</param>
+            <returns>Single event.</returns>
+            <response code="200">Success</response>
+            <response code="401">Unauthorized</response>
+            <response code="404">Event not found</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.EventsController.PutEvent(System.Int64,Eventer.Model.Dto.Event.EventPutDto)">
+            <summary>
+            Edit event specified by id. Administrators only.
+            </summary>
+            <remarks>
+            Edit event specified by id. Administrators only.
+            </remarks>
+            <param name="id">Id of event.</param>
+            <param name="event">Event data model.</param>
+            <returns>Single event.</returns>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Forbidden</response>
+            <response code="404">Event/Category/City not found</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.EventsController.PostEvent(Eventer.Model.Dto.Event.EventPostDto)">
+            <summary>
+            Create new event. Administrators only.
+            </summary>
+            <remarks>
+            Create new event. Administrators only.
+            </remarks>
+            <param name="event">Event data model.</param>
+            <returns>Created event.</returns>
+            <response code="201">Success</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Forbidden</response>
+            <response code="404">Category/City not found</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.EventsController.PostEventAsList(Eventer.Model.Dto.Event.EventPostAsListDto)">
+            <summary>
+            Add range of events. Administraors only.
+            </summary>
+            <remarks>
+            Add range of events. Administraors only.
+            </remarks>
+            <param name="eventList">Model representing list of event data.</param>
+            <returns>Created events.</returns>
+            <response code="201">Success</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Forbidden</response>
+            <response code="404">Category/City not found</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.EventsController.DeleteEvent(System.Int64)">
+            <summary>
+            Delete event specified by id. Administrators only.
+            </summary>
+            <remarks>
+            Delete event specified by id. Administrators only.
+            </remarks>
+            <param name="id">Id of event.</param>
+            <returns>Http status code.</returns>
+            <response code="200">Success</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Forbidden</response>
+            <response code="404">Event not found</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="T:Eventer.Web.Api.Controllers.V1.RefreshTokensController">
+            <summary>
+            Controller with actions to manage refresh tokens.
+            </summary>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.RefreshTokensController.#ctor(Eventer.Service.RefreshToken.Interface.IRefreshTokenService,Eventer.Utility.CustomException.ICustomException)">
+            <summary>
+            Refresh tokens controller
+            </summary>
+            <param name="customException"></param>
+            <param name="refreshTokenService"></param>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.RefreshTokensController.GetRefreshTokens(Eventer.Model.QueryString.Pagination.Pagination)">
+            <summary>
+            Get list of refresh tokens. Administrators only.
+            </summary>
+            <remarks>
+            Get list of refresh tokens. Administrators only.
+            </remarks>
+            <param name="paginationModel">Model representing query string</param>
+            <returns>Paged list of refresh tokens.</returns>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Forbidden</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.RefreshTokensController.GetRefreshToken(System.String)">
+            <summary>
+            Get single refresh token specified by clientId. Administrators only.
+            </summary>
+            <remarks>
+            Get single refresh token specified by clientId. Administrators only.
+            </remarks>
+            <param name="clientId">Id of client.</param>
+            <returns>Single refresh token.</returns>
+            <response code="200">Success</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Forbidden</response>
+            <response code="404">Client not found</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.RefreshTokensController.DeleteRefreshToken(System.String)">
+            <summary>
+            Delete refresh token. Administrators only.
+            </summary>
+            <remarks>
+            Delete refresh token. Administrators only.
+            </remarks>
+            <param name="clientId">Id of client.</param>
+            <returns>Http status code.</returns>
+            <response code="200">Success</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Forbidden</response>
+            <response code="404">Client not found</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="T:Eventer.Web.Api.Controllers.V1.RolesController">
+            <summary>
+            Controller with actions to manage roles.
+            </summary>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.RolesController.#ctor(Eventer.Service.RoleService.IRoleService,Eventer.Web.Api.ApplicationUserManager,Eventer.Utility.CustomException.ICustomException)">
+            <summary>
+            Roles Controller
+            </summary>
+            <param name="customException"></param>
+            <param name="roleService"></param>
+            <param name="userManager"></param>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.RolesController.GetRoles(Eventer.Model.QueryString.Pagination.Pagination)">
+            <summary>
+            Get list of roles. Administrators only.
+            </summary>
+            <remarks>
+            Get list of roles. Administrators only.
+            </remarks>
+            <param name="paginationModel">Model representing query string</param>
+            <returns>Paged list of roles.</returns>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Forbidden</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.RolesController.GetRole(System.String)">
+            <summary>
+            Get single role specified by id. Administrators only.
+            </summary>
+            <remarks>
+            Get single role specified by id. Administrators only.
+            </remarks>
+            <param name="id">Id of role.</param>
+            <returns>Single role.</returns>
+            <response code="200">Success</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Forbidden</response>
+            <response code="404">Role not found</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.RolesController.GetRoleByName(System.String)">
+            <summary>
+            Get single role specified by name. Administrators only.
+            </summary>
+            <remarks>
+            Get single role specified by name. Administrators only.
+            </remarks>
+            <param name="roleName">Name of the role.</param>
+            <returns>Single role.</returns>
+            <response code="200">Success</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Forbidden</response>
+            <response code="404">Role not found</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.RolesController.PutRole(System.String,Eventer.Model.Dto.IdentityRole.IdentityRoleDto)">
+            <summary>
+            Edit role. Administrators only.
+            </summary>
+            <remarks>
+            Edit role. Administrators only.
+            </remarks>
+            <param name="id">Id of role.</param>
+            <param name="role">Data role model.</param>
+            <returns>Edited role.</returns>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Forbidden</response>
+            <response code="404">Role not found</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.RolesController.PostRole(Eventer.Model.Dto.IdentityRole.IdentityRolePostModel)">
+            <summary>
+            Create new role. Administrators only.
+            </summary>
+            <remarks>
+            Create new role. Administrators only.
+            </remarks>
+            <param name="role">Data role model.</param>
+            <returns>Created role.</returns>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Forbidden</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.RolesController.DeleteRole(System.String)">
+            <summary>
+            Delete role. Administrators only.
+            </summary>
+            <remarks>
+            Delete role. Administrators only.
+            </remarks>
+            <param name="id">Id of role.</param>
+            <returns>Http status code.</returns>
+            <response code="200">Success</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Forbidden</response>
+            <response code="404">Role not found</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.RolesController.AddUserToRole(Eventer.Model.Dto.IdentityRole.UserRoleModel)">
+            <summary>
+            Add user to role. Administrators only.
+            </summary>
+            <remarks>
+            Add user to role. Administrators only.
+            </remarks>
+            <param name="model">UserRole data model.</param>
+            <returns>Http status code.</returns>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Forbidden</response>
+            <response code="404">Role/User not found</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.RolesController.RemoveUserRole(Eventer.Model.Dto.IdentityRole.UserRoleModel)">
+            <summary>
+            Remove user from role. Administrators only.
+            </summary>
+            <remarks>
+            Remove user from role. Administrators only.
+            </remarks>
+            <param name="model">UserRole data model.</param>
+            <returns>Http status code.</returns>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Forbidden</response>
+            <response code="404">Role/User found</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.RolesController.GetMyRoles">
+            <summary>
+            Get my roles
+            </summary>
+            <remarks>
+            Get my roles
+            </remarks>
+            <returns>List of role names</returns>
+            <response code="200">Success</response>
+            <response code="401">Unauthorized</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="T:Eventer.Web.Api.Controllers.V1.StatesController">
+            <summary>
+            Controller with actions to manage states.
+            </summary>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.StatesController.#ctor(Eventer.Service.EventerService.Interface.IStateService,Eventer.Utility.CustomException.ICustomException)">
+            <summary>
+            States controller
+            </summary>
+            <param name="customException"></param>
+            <param name="stateService"></param>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.StatesController.GetStates(Eventer.Model.QueryString.Pagination.Pagination)">
+            <summary>
+            Get list of states.
+            </summary>
+            <remarks>
+            Get list of states.
+            </remarks>
+            <param name="paginationModel">Model representing query string</param>
+            <returns>Paged list of states.</returns>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthorized</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.StatesController.GetState(System.Int32)">
+            <summary>
+            Get single state specified by id.
+            </summary>
+            <remarks>
+            Get single state specified by id.
+            </remarks>
+            <param name="id">Id of state.</param>
+            <returns>Single state.</returns>
+            <response code="200">Success</response>
+            <response code="401">Unauthorized</response>
+            <response code="404">State not found</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.StatesController.GetStateByName(System.String)">
+            <summary>
+            Get single state specified by name.
+            </summary>
+            <remarks>
+            Get single state specified by name.
+            </remarks>
+            <param name="stateName">Name of the state.</param>
+            <returns>Single state.</returns>
+            <response code="200">Success</response>
+            <response code="401">Unauthorized</response>
+            <response code="404">State not found</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.StatesController.PutState(System.Int32,Eventer.Model.Dto.State.StatePutDto)">
+            <summary>
+            Edit state. Administrators only.
+            </summary>
+            <remarks>
+            Edit state. Administrators only.
+            </remarks>
+            <param name="id">Id of state.</param>
+            <param name="state">State data model.</param>
+            <returns>Edited state.</returns>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Forbidden</response>
+            <response code="404">State not found</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.StatesController.PostState(Eventer.Model.Dto.State.StatePostDto)">
+            <summary>
+            Create new state. Administrators only.
+            </summary>
+            <remarks>
+            Create new state. Administrators only.
+            </remarks>
+            <param name="state">State data model.</param>
+            <returns>Created state.</returns>
+            <response code="201">Success</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Forbidden</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.StatesController.DeleteState(System.Int32)">
+            <summary>
+            Delete state. Administrators only.
+            </summary>
+            <remarks>
+            Delete state. Administrators only.
+            </remarks>
+            <param name="id">Id of state.</param>
+            <returns>Http status code.</returns>
+            <response code="200">Success</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Forbidden</response>
+            <response code="404">State not found</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="T:Eventer.Web.Api.Controllers.V1.TestController">
+            <summary>
+            Test
+            </summary>
+        </member>
+        <member name="M:Eventer.Web.Api.Controllers.V1.TestController.#ctor(Eventer.Utility.CustomException.ICustomException,Eventer.Web.Api.ApplicationUserManager,Eventer.Service.RoleManager.ApplicationRoleManager)">
+            <summary>
+            Test
+            </summary>
+            <param name="customException"></param>
+            <param name="userManager"></param>
+            <param name="roleManager"></param>
+        </member>
+    </members>
+</doc>

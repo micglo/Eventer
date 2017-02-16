@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="EventerDb-Web.config Connection String" description="EventerDb Connection String used in web.config by the application to access the database." defaultValue="Server=tcp:eventerdbserver.database.windows.net,1433;Initial Catalog=EventerDb;Persist Security Info=False;User ID=michalglowaczewski;Password=P@$$w0rd1;MultipleActiveResultSets=True;Encrypt=True;TrustServerCertificate=False;Connection Timeout=120;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Michal\\Documents\\Projekty\\eventer\\Eventer\.Web\.Api\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='EventerDb']/@connectionString" />
+  </parameter>
+</parameters>

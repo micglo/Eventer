@@ -1,0 +1,41 @@
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Repository\bin\Debug\Eventer.Repository.dll
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Repository\bin\Debug\Eventer.Repository.pdb
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Repository\obj\Debug\Eventer.Repository.dll
+c:\Users\Michal\Documents\Visual Studio 2015\Projects\Eventer\Eventer.Repository\obj\Debug\Eventer.Repository.pdb
+C:\Users\Michal\documents\visual studio 2015\Projects\Eventer\Eventer.Repository\obj\Debug\Eventer.Repository.csprojResolveAssemblyReference.cache
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Repository\bin\Debug\Eventer.Repository.dll.config
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Repository\bin\Debug\Eventer.Repository.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Repository\bin\Debug\Eventer.Repository.pdb
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Repository\bin\Debug\EntityFramework.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Repository\bin\Debug\Eventer.Dal.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Repository\bin\Debug\Eventer.Domain.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Repository\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Repository\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Repository\bin\Debug\Eventer.Dal.pdb
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Repository\bin\Debug\Eventer.Domain.pdb
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Repository\bin\Debug\EntityFramework.xml
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Repository\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Repository\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Repository\obj\Debug\Eventer.Repository.csprojResolveAssemblyReference.cache
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Repository\obj\Debug\Eventer.Repository.dll
+C:\Users\michal.glowaczewski\Documents\Projekty\eventer\Eventer.Repository\obj\Debug\Eventer.Repository.pdb
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Repository\bin\Debug\Eventer.Repository.dll.config
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Repository\bin\Debug\Eventer.Repository.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Repository\bin\Debug\Eventer.Repository.pdb
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Repository\bin\Debug\EntityFramework.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Repository\bin\Debug\Eventer.Dal.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Repository\bin\Debug\Eventer.Domain.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Repository\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Repository\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Repository\bin\Debug\Eventer.Dal.pdb
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Repository\bin\Debug\Eventer.Domain.pdb
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Repository\bin\Debug\EntityFramework.xml
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Repository\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Repository\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Repository\obj\Debug\Eventer.Repository.csprojResolveAssemblyReference.cache
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Repository\obj\Debug\Eventer.Repository.dll
+C:\Users\Michal\Documents\Projekty\eventer\Eventer.Repository\obj\Debug\Eventer.Repository.pdb

@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9B5604E3-65D5-4383-B863-0FEC43128A86}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Eventer.Web</RootNamespace>
+    <AssemblyName>Eventer.Web</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort>44354</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="app\account\account.html" />
+    <Content Include="app\account\account.js" />
+    <Content Include="app\account\accountComponent.js" />
+    <Content Include="app\account\accountController.js" />
+    <Content Include="app\account\addClient\addClient.html" />
+    <Content Include="app\account\addClient\addClient.js" />
+    <Content Include="app\account\addClient\addClientComponent.js" />
+    <Content Include="app\account\addClient\addClientController.js" />
+    <Content Include="app\admin\clients\clientDetails\infoModal.html" />
+    <Content Include="app\admin\clients\clientDetails\infoModalInstanceController.js" />
+    <Content Include="app\auth\auth.js" />
+    <Content Include="app\auth\authService.js" />
+    <Content Include="app\account\changePassword\changePassword.html" />
+    <Content Include="app\account\changePassword\changePassword.js" />
+    <Content Include="app\account\changePassword\changePasswordComponent.js" />
+    <Content Include="app\account\changePassword\changePasswordController.js" />
+    <Content Include="app\account\changePassword\changePasswordService.js" />
+    <Content Include="app\account\changePassword\passwordMatchDirective.js" />
+    <Content Include="app\account\login\login.html" />
+    <Content Include="app\account\login\login.js" />
+    <Content Include="app\account\login\loginComponent.js" />
+    <Content Include="app\account\login\loginController.js" />
+    <Content Include="app\account\login\loginService.js" />
+    <Content Include="app\account\myClientDetails\myClientDetails.html" />
+    <Content Include="app\account\myClientDetails\myClientDetails.js" />
+    <Content Include="app\account\myClientDetails\myClientDetailsComponent.js" />
+    <Content Include="app\account\myClientDetails\myClientDetailsController.js" />
+    <Content Include="app\account\myClients\myClients.html" />
+    <Content Include="app\account\myClients\myClients.js" />
+    <Content Include="app\account\myClients\myClientsComponent.js" />
+    <Content Include="app\account\myClients\myClientsController.js" />
+    <Content Include="app\account\passwordCheckDirective.js" />
+    <Content Include="app\account\resetClientSecret\resetClientSecret.html" />
+    <Content Include="app\account\resetClientSecret\resetClientSecret.js" />
+    <Content Include="app\account\resetClientSecret\resetClientSecretComponent.js" />
+    <Content Include="app\account\resetClientSecret\resetClientSecretController.js" />
+    <Content Include="app\account\signUp\signUp.html" />
+    <Content Include="app\account\signUp\signUp.js" />
+    <Content Include="app\account\signUp\signUpComponent.js" />
+    <Content Include="app\account\signUp\signUpController.js" />
+    <Content Include="app\account\signUp\signUpService.js" />
+    <Content Include="app\admin\admin.js" />
+    <Content Include="app\admin\clients\addClient\addClient.html" />
+    <Content Include="app\admin\clients\addClient\addClient.js" />
+    <Content Include="app\admin\clients\addClient\addClientComponent.js" />
+    <Content Include="app\admin\clients\addClient\addClientController.js" />
+    <Content Include="app\admin\clients\clientDetails\clientDetails.html" />
+    <Content Include="app\admin\clients\clientDetails\clientDetails.js" />
+    <Content Include="app\admin\clients\clientDetails\clientDetailsComponent.js" />
+    <Content Include="app\admin\clients\clientDetails\clientDetailsController.js" />
+    <Content Include="app\api\api.js" />
+    <Content Include="app\api\apiConfig.js" />
+    <Content Include="app\api\apiService.js" />
+    <Content Include="app\app.js" />
+    <Content Include="app\appConfig.js" />
+    <Content Include="app\admin\clients\clients.js" />
+    <Content Include="app\admin\clients\clientsController.js" />
+    <Content Include="app\admin\clients\clientsComponent.js" />
+    <Content Include="app\admin\clients\clients.html" />
+    <Content Include="app\auth\tokenService.js" />
+    <Content Include="app\common\common.js" />
+    <Content Include="app\common\forbidden\forbidden.html" />
+    <Content Include="app\common\forbidden\forbidden.js" />
+    <Content Include="app\common\forbidden\forbiddenComponent.js" />
+    <Content Include="app\common\forbidden\forbiddenController.js" />
+    <Content Include="app\common\home\home.html" />
+    <Content Include="app\common\home\home.js" />
+    <Content Include="app\common\home\homeComponent.js" />
+    <Content Include="app\common\home\homeController.js" />
+    <Content Include="app\common\menu\menu.html" />
+    <Content Include="app\common\menu\menu.js" />
+    <Content Include="app\common\menu\menuComponent.js" />
+    <Content Include="app\common\menu\menuController.js" />
+    <Content Include="app\common\pageNotFound\pageNotFound.html" />
+    <Content Include="app\common\pageNotFound\pageNotFound.js" />
+    <Content Include="app\common\pageNotFound\pageNotFoundComponent.js" />
+    <Content Include="app\common\pageNotFound\pageNotFoundController.js" />
+    <Content Include="app\core\core.js" />
+    <Content Include="app\core\myHttpInterceptor.js" />
+    <Content Include="app\events\eventDetails\eventDetails.html" />
+    <Content Include="app\events\eventDetails\eventDetails.js" />
+    <Content Include="app\events\eventDetails\eventDetailsComponent.js" />
+    <Content Include="app\events\eventDetails\eventDetailsController.js" />
+    <Content Include="app\events\events.html" />
+    <Content Include="app\events\events.js" />
+    <Content Include="app\events\eventsComponent.js" />
+    <Content Include="app\events\eventsController.js" />
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\img\blue_spinner.gif" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="packages.config" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <None Include="Properties\PublishProfiles\eventerspa - Web Deploy.pubxml" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <None Include="Scripts\jquery-3.1.1.intellisense.js" />
+    <Content Include="Scripts\jquery-3.1.1.js" />
+    <Content Include="Scripts\jquery-3.1.1.min.js" />
+    <Content Include="Scripts\jquery-3.1.1.slim.js" />
+    <Content Include="Scripts\jquery-3.1.1.slim.min.js" />
+    <Content Include="Scripts\jquery-3.1.1.slim.min.map" />
+    <Content Include="Scripts\jquery-3.1.1.min.map" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\bootstrap.cerulean.css" />
+    <Content Include="Content\bootstrap.cerulean.min.css" />
+    <Content Include="index.html" />
+    <Content Include="Scripts\ngStorage.min.js" />
+    <Content Include="style\site.css" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>51828</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44354/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
