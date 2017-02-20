@@ -1,15 +1,43 @@
 Eventer.WebApi
 Projekt w technologii Asp.Net WebApi2. Do połączęnia z bazą danych wykorzystano EntityFramework. Ninject jako IoC. Logowanie za pomocą NLoga.
 Do utworzenia dokumentacji użyto bibliotekę Swashbuckle. Zarządzanie użytkownikami i rolami Asp.Net Identity. Autentykacja przy użyciu OAth
-tokena, oraz refresh tokena, który pełni rolę podtrzymywania autoryzacji w projekcie Eventer.Web. 
+tokena, oraz refresh tokena, który pełni rolę podtrzymywania autoryzacji w projekcie Eventer.Web.
+Funkcjonalności:
+-Tworzenie nowego konta uzytkownika(link weryfikacyjny na adres email)
+-Tworzenie nowego klienta api(dla aplikacji JS lub natywnych)
+-Autentykacja poprzez OAuth token i refresh token
+-Autoryzacja uzytkowników pod względem ich ról
+-Globalna obsługa i logowanie błędów
+-Logowanie aktywności użytkowników(zapytań do api)
+-CORS przydzielony dla poszczególnego użytkownika(na clienta)
+-Dynamiczna dokumentacja api
+-CRUD województw
+-CRUD miast,
+-CRUD kategorii wydarzeń,
+-CRUD wydarzeń(niemal nieograniczone możliwości wyszukiwania wydarzenia)
+-CRUD roli 
+-Stronicowanie i wersjonowianie api
+-Podział akcji pod względem ról
+
 
 Eventer.Web
 Projekt stworzony przy wykorzystaniu AngularJS. Przykładowa aplikacja, która umożliwia zarządzanie clientami uzyskującymi dostęp do api.
 Ponadto wykorzystuje API, aby porać i wyświetlić wydarzenia.
+Funkcjonalności:
+-Wyszukiwanie wydarzeń dla konkretnego miasta(pod względem daty, zapytania)
+-Panel adminitracyjny uzytkownika(zmiana hasla, CRUD klienta api)
+-Panel administracyjny admina(CRUD klienta api)
+
 
 Eventer.WindowsService
 Usługa Windows, która ma na celu pobranie wydarzeń z dwóch niezależnych serwisów oraz przy użyciu API Eventera zapisanie ich do bazy. 
 W celu kolejkowania i powtarzania akcji wykorzystano biblioteke QUARTZ, która umożliwia sprawne zarządzanie zdarzeniami CRON'a. 
+Funkcjonalności:
+-pobieranie wydarzeń z dwóch zewnętrznych serwisów
+-pobieranie wydarzeń z api Eventer'a
+-Weryfikacja istniejących wydarzeń,
+-Powtarzalności i synchronizacja akcji 
+
 
 Link do api: (Baza wydarzeń jest nieaktualna, gdyż serwis z Wrocławia nie odpowiada na moje maile, a klucz API stracil ważność.)
 https://eventerapi.azurewebsites.net/swagger (tylko v1)
